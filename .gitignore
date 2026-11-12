@@ -1,0 +1,7 @@
+# Typy, które Claude Code generuje przy ładowaniu moda
+.claude-plugin/types/
+# Śmieci systemu i edytorów
+.DS_Store
+Thumbs.db
+*.log
+.mcpb-cache/

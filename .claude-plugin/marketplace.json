@@ -1,0 +1,6 @@
+{
+  "name": "claude-code-access-monitor",
+  "description": "Monitor dostępów Claude Code — co Claude może na Twoim komputerze: uprawnienia, MCP, pluginy, hooki, tokeny, ryzyka; sieć powiązań 2D/3D.",
+  "owner": { "name": "Mateusz Wiszniowski", "url": "https://wiszniowski-it.com" },
+  "plugins": [{ "name": "monitor-dostepow", "source": "./" }]
+}
