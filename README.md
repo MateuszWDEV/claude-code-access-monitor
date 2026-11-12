@@ -99,6 +99,8 @@ Third-party libraries (loaded from a CDN, not bundled): [force-graph](https://gi
 **Do czego Claude Code ma dostęp na Twoim komputerze — i co z czego wynika.**
 Mod (plugin) do Claude Code, który skanuje uprawnienia, serwery MCP, pluginy, hooki i tokeny, ocenia ryzyka i pokazuje wszystko jako interaktywną sieć powiązań 2D/3D.
 
+![Sieć powiązań 3D: poziomy = kroki od Claude, sześciany = skupiska silnie powiązanych elementów](docs/siec-3d.png)
+
 ### Co pokazuje
 
 - **Uprawnienia:** tryb (`default`, `auto`, `bypassPermissions`…), reguły allow / deny / ask z każdego źródła (user, project, local) i to, do jakiego narzędzia lub serwera każda reguła się odnosi.
@@ -118,6 +120,8 @@ Mod (plugin) do Claude Code, który skanuje uprawnienia, serwery MCP, pluginy, h
   - suwak rozsunięcia warstw, zamrażanie układu, presety kamery, cofanie zmian (`Z` / `Y`), skróty klawiszowe (ściąga pod `?`);
   - **poruszanie się w 3D**: graf obraca się zawsze wokół swojego środka (lewy przycisk myszy); osie na brzegach sceny to jazda kamerą — **Y** (lewy brzeg) w górę / w dół, **X** (dolny brzeg) w lewo / w prawo, w głąb kółkiem myszy, klik w grot = skok;
   - **gizmo** w prawym dolnym rogu: obręcze **YZ / XZ / XY** (ciągnij = obrót wokół osi X / Y / Z, klik = obrót o 90°), osie **X / Y / Z** (klik = widok z tej strony) i domek (widok startowy).
+
+![Widok 2D z panelem danych](docs/dane.png)
 
 ### Instalacja
 
