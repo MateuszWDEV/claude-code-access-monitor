@@ -1,11 +1,22 @@
 {
   "name": "monitor-dostepow",
   "version": "1.1.0",
-  "description": "Monitor dostępów Claude Code: tryb uprawnień, reguły allow/deny, serwery MCP, pluginy, hooki, tokeny i ocena ryzyk — panel + interaktywna sieć powiązań 2D/3D na localhost.",
+  "description": "Claude Code access monitor: permission mode, allow/deny rules, MCP servers, plugins, hooks, tokens and risk assessment — pane + interactive 2D/3D dependency network on localhost (UI in Polish).",
   "types": "./types/index.d.ts",
-  "author": { "name": "Mateusz Wiszniowski", "url": "https://wiszniowski-it.com" },
+  "author": {
+    "name": "Mateusz Wiszniowski",
+    "url": "https://wiszniowski-it.com"
+  },
   "license": "PolyForm-Noncommercial-1.0.0",
   "homepage": "https://github.com/MateuszWDEV/claude-code-access-monitor",
   "repository": "https://github.com/MateuszWDEV/claude-code-access-monitor",
-  "keywords": ["claude-code", "mcp", "security", "permissions", "audit", "visualization", "3d"]
+  "keywords": [
+    "claude-code",
+    "mcp",
+    "security",
+    "permissions",
+    "audit",
+    "visualization",
+    "3d"
+  ]
 }
